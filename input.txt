@@ -1,5 +1,10 @@
-Spokane Washington; Managed It Services
-San Bernardino California; Managed It Services
-Modesto California; Managed It Services
-Fontana California; Managed It Services
-Salt Lake City; Managed It Services
+Chandler Arizona; Managed It Services
+Gilbert Arizona; Managed It Services
+NorthLasVegas Nevada; Managed It Services
+Scottsdale Arizona; Managed It Services
+Fremont California; Managed It Services
+Lancaster California; Managed It Services
+FortCollins Colorado; Managed It Services
+Salinas California; Managed It Services
+Corona California; Managed It Services
+Sunnyvale California; Managed It Services
