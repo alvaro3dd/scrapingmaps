@@ -1,10 +1,3 @@
-Chandler Arizona; Managed It Services
-Gilbert Arizona; Managed It Services
-NorthLasVegas Nevada; Managed It Services
-Scottsdale Arizona; Managed It Services
-Fremont California; Managed It Services
-Lancaster California; Managed It Services
-FortCollins Colorado; Managed It Services
-Salinas California; Managed It Services
-Corona California; Managed It Services
-Sunnyvale California; Managed It Services
+Fullerton California; Managed It Services
+Thornton Colorado; Managed It Services
+WestValleyCity Utah; Managed It Services

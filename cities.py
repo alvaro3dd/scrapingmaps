@@ -20,21 +20,23 @@ Glendale California Managed It Services
 Vancouver Washington Managed It Services
 Santa Rosa California Managed It Services
 Elk Grove California Managed It Services
-Ontario California Managed It Services
+
+Ontario California; Managed It Services
+Oceanside California; Managed It Services
+Garden Grove California; Managed It Services
+Palmdale California; Managed It Services
+Hayward California; Managed It Services
+Lakewood Colorado; Managed It Services
+Bellevue Washington; Managed It Services
+Escondido California; Managed It Services
+Torrance California; Managed It Services
+Surprise Arizona; Managed It Services
+Visalia California; Managed It Services
+Orange California; Managed It Services
+Kent Washington; Managed It Services
 
 
-Oceanside California Managed It Services
-Garden Grove California Managed It Services
-Palmdale California Managed It Services
-Hayward California Managed It Services
-Lakewood Colorado Managed It Services
-Bellevue Washington Managed It Services
-Escondido California Managed It Services
-Torrance California Managed It Services
-Surprise Arizona Managed It Services
-Visalia California Managed It Services
-Orange California Managed It Services
-Kent Washington Managed It Services
+
 Santa Clara California Managed It Services
 Simi Valley California Managed It Services
 Concord California Managed It Services
