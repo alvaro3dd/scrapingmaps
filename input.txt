@@ -1,3 +1,6 @@
-Fullerton California; Managed It Services
-Thornton Colorado; Managed It Services
-WestValleyCity Utah; Managed It Services
+Antioch California; Managed It Services
+Carlsbad California; Managed It Services
+Gresham Oregon; Managed It Services
+Pueblo Colorado; Managed It Services
+Murrieta California; Managed It Services
+Everett Washington; Managed It Services

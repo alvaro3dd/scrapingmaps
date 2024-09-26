@@ -90,22 +90,22 @@ def main():
 
             # Search for the city first
             page.locator('//input[@id="searchboxinput"]').fill(city.strip())
-            page.wait_for_timeout(1000)
-            page.keyboard.press("Enter")
             page.wait_for_timeout(3000)
+            page.keyboard.press("Enter")
+            page.wait_for_timeout(5000)
 
             # Clear the search box and search for the business type
             page.locator('//input[@id="searchboxinput"]').fill(business_type.strip())
-            page.wait_for_timeout(1000)
+            page.wait_for_timeout(3000)
             page.keyboard.press("Enter")
-            page.wait_for_timeout(1000)
+            page.wait_for_timeout(3000)
 
             # Scroll and gather listings
             page.hover('//a[contains(@href, "https://www.google.com/maps/place")]')
             previously_counted = 0
             while True:
                 page.mouse.wheel(0, 10000)
-                page.wait_for_timeout(1000)
+                page.wait_for_timeout(3000)
 
                 if page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').count() >= total:
                     listings = page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').all()[:total]
@@ -127,7 +127,7 @@ def main():
             for listing in listings:
                 try:
                     listing.click()
-                    page.wait_for_timeout(1000)
+                    page.wait_for_timeout(5000)
 
                     name_xpath = '//h1[@class="DUwDvf lfPIob"]'
                     address_xpath = '//button[@data-item-id="address"]//div[contains(@class, "fontBodyMedium")]'

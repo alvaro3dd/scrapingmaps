@@ -31,25 +31,26 @@ Bellevue Washington; Managed It Services
 Escondido California; Managed It Services
 Torrance California; Managed It Services
 Surprise Arizona; Managed It Services
+
 Visalia California; Managed It Services
 Orange California; Managed It Services
 Kent Washington; Managed It Services
+Santa Clara California; Managed It Services
+Simi Valley California; Managed It Services
+Concord California; Managed It Services
+Berkeley California; Managed It Services
+Fairfield California; Managed It Services
+Billings Montana Managed; It Services
+Richmond California Managed; It Services
+
+Antioch California; Managed It Services
+Carlsbad California; Managed It Services
+Gresham Oregon Managed; It Services
+Pueblo Colorado Managed; It Services
+Murrieta California Managed; It Services
+Everett Washington Managed; It Services
 
 
-
-Santa Clara California Managed It Services
-Simi Valley California Managed It Services
-Concord California Managed It Services
-Berkeley California Managed It Services
-Fairfield California Managed It Services
-Billings Montana Managed It Services
-Richmond California Managed It Services
-Antioch California Managed It Services
-Carlsbad California Managed It Services
-Gresham Oregon Managed It Services
-Pueblo Colorado Managed It Services
-Murrieta California Managed It Services
-Everett Washington Managed It Services
 Santa Maria California Managed It Services
 El Monte California Managed It Services
 Sparks Nevada Managed It Services
