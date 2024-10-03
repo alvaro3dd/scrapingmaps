@@ -46,19 +46,20 @@ Murrieta California Managed; It Services
 Everett Washington Managed; It Services
 
 
-Santa Maria California Managed It Services
-El Monte California Managed It Services
-Sparks Nevada Managed It Services
-Boulder Colorado Managed It Services
-Burbank California Managed It Services
-Hillsboro Oregon Managed It Services
-San Mateo California Managed It Services
-Rio Rancho New Mexico Managed It Services
-Spokane Valley Washington Managed It Services
-Vacaville California Managed It Services
-Nampa Idaho Managed It Services
-Bend Oregon Managed It Services
-St. George Utah Managed It Services
-Buckeye Arizona Managed It Services>
+Santa Maria California; Managed It Services
+El Monte California; Managed It Services
+Sparks Nevada; Managed It Services
+Boulder Colorado; Managed It Services
+Burbank California; Managed It Services
+
+Hillsboro Oregon; Managed It Services
+San Mateo California; Managed It Services
+Rio Rancho New Mexico; Managed It Services
+Spokane Valley Washington; Managed It Services
+Vacaville California; Managed It Services
+Nampa Idaho; Managed It Services
+Bend Oregon; Managed It Services
+St. George Utah; Managed It Services
+Buckeye Arizona; Managed It Services>
 
 """

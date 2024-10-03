@@ -126,66 +126,66 @@ async def main():
 
             business_list = BusinessList()
 
-        # Scraping business details
-        for listing in listings:
-            try:
-                await listing.click()  # Cambia a await aquí
-                await page.wait_for_timeout(5000)
+            # Scraping business details
+            for listing in listings:
+                try:
+                    await listing.click()  # Cambia a await aquí
+                    await page.wait_for_timeout(5000)
 
-                name_xpath = '//h1[@class="DUwDvf lfPIob"]'
-                address_xpath = '//button[@data-item-id="address"]//div[contains(@class, "fontBodyMedium")]'
-                website_xpath = '//a[@data-item-id="authority"]//div[contains(@class, "fontBodyMedium")]'
-                phone_number_xpath = '//button[contains(@data-item-id, "phone:tel:")]//div[contains(@class, "fontBodyMedium")]'
-                reviews_average_xpath = '//span[@class="ceNzKf"]'
+                    name_xpath = '//h1[@class="DUwDvf lfPIob"]'
+                    address_xpath = '//button[@data-item-id="address"]//div[contains(@class, "fontBodyMedium")]'
+                    website_xpath = '//a[@data-item-id="authority"]//div[contains(@class, "fontBodyMedium")]'
+                    phone_number_xpath = '//button[contains(@data-item-id, "phone:tel:")]//div[contains(@class, "fontBodyMedium")]'
+                    reviews_average_xpath = '//span[@class="ceNzKf"]'
 
-                business = Business()
+                    business = Business()
 
-                if await page.locator(name_xpath).count() > 0:
-                    business.name = await page.locator(name_xpath).inner_text()  # Cambia a await aquí
-                else:
-                    business.name = ""
-                if await page.locator(address_xpath).count() > 0:
-                    addresses = await page.locator(address_xpath).all()  # Asegúrate de usar await aquí
-                    if addresses:
-                        business.address = await addresses[0].inner_text()  # Cambia a await aquí
+                    if await page.locator(name_xpath).count() > 0:
+                        business.name = await page.locator(name_xpath).inner_text()  # Cambia a await aquí
+                    else:
+                        business.name = ""
+                    if await page.locator(address_xpath).count() > 0:
+                        addresses = await page.locator(address_xpath).all()  # Asegúrate de usar await aquí
+                        if addresses:
+                            business.address = await addresses[0].inner_text()  # Cambia a await aquí
+                        else:
+                            business.address = ""
                     else:
                         business.address = ""
-                else:
-                    business.address = ""
-                if await page.locator(website_xpath).count() > 0:
-                    websites = await page.locator(website_xpath).all()  # Asegúrate de usar await aquí
-                    if websites:
-                        business.website = await websites[0].inner_text()  # Cambia a await aquí
+                    if await page.locator(website_xpath).count() > 0:
+                        websites = await page.locator(website_xpath).all()  # Asegúrate de usar await aquí
+                        if websites:
+                            business.website = await websites[0].inner_text()  # Cambia a await aquí
+                        else:
+                            business.website = ""
                     else:
                         business.website = ""
-                else:
-                    business.website = ""
-                if await page.locator(phone_number_xpath).count() > 0:
-                    phone_numbers = await page.locator(phone_number_xpath).all()  # Asegúrate de usar await aquí
-                    if phone_numbers:
-                        business.phone_number = await phone_numbers[0].inner_text()  # Cambia a await aquí
+                    if await page.locator(phone_number_xpath).count() > 0:
+                        phone_numbers = await page.locator(phone_number_xpath).all()  # Asegúrate de usar await aquí
+                        if phone_numbers:
+                            business.phone_number = await phone_numbers[0].inner_text()  # Cambia a await aquí
+                        else:
+                            business.phone_number = ""
                     else:
                         business.phone_number = ""
-                else:
-                    business.phone_number = ""
-                if await page.locator(reviews_average_xpath).count() > 0:
-                    aria_label = await page.locator(reviews_average_xpath).get_attribute('aria-label')  # Cambia a await aquí
-                    if aria_label:
-                        business.reviews_average = float(
-                            aria_label.split()[0]
-                            .replace(',', '.')
-                            .strip()
-                        )
+                    if await page.locator(reviews_average_xpath).count() > 0:
+                        aria_label = await page.locator(reviews_average_xpath).get_attribute('aria-label')  # Cambia a await aquí
+                        if aria_label:
+                            business.reviews_average = float(
+                                aria_label.split()[0]
+                                .replace(',', '.')
+                                .strip()
+                            )
+                        else:
+                            business.reviews_average = ""
                     else:
                         business.reviews_average = ""
-                else:
-                    business.reviews_average = ""
 
-                business.latitude, business.longitude = extract_coordinates_from_url(page.url)
+                    business.latitude, business.longitude = extract_coordinates_from_url(page.url)
 
-                business_list.business_list.append(business)
-            except Exception as e:
-                print(f'Error occurred: {e}')
+                    business_list.business_list.append(business)
+                except Exception as e:
+                    print(f'Error occurred: {e}')
 
             # Clean and save the filename
             filename = clean_filename(f"google_maps_data_{search_for}".replace(' ', '_'))
