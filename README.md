@@ -1,5 +1,5 @@
-# scrappingmaps
-Google maps scrapping for accounts from different Business industries across the world (Specially focused on North America)
+# scrapingmaps
+Google maps scraping for accounts from different Business industries across the world (Specially focused on North America)
 
 
 
